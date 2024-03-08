@@ -29,7 +29,6 @@
                                 aria-expanded="false" :disabled="event.isCanceled"><span
                                     class="mdi mdi-dots-horizontal"></span></button>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item">Edit</a></li>
                                 <li><a class="dropdown-item" @click="cancelEvent()">Cancel</a></li>
                             </ul>
                         </div>
